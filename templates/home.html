@@ -34,6 +34,7 @@
         font-family: poppins;
         font-style: bolder;
         margin: 10px 0;
+        padding-top:60px; 
       }
 
       #profile{
@@ -85,7 +86,8 @@
     
   </Head>
   <body>
-    
+
+    {% include 'nav.html'%}
     <h1 class= "heading1"><b>MY PROFILE</b></h1>
     <img id = "banner" src="https://45c0759b-feb9-466f-a32a-8d731bc73fd1-00-2awtleeppbi3w.pike.replit.dev/static/web-banner.jpg" alt="Banner Image", height=320>
     <div class="container text-center">
@@ -96,7 +98,7 @@
             
         <p>👋 Hi, I'm Yatharth Patankar, a Computer Science Engineering student with a specialization in Artificial Intelligence and Machine Learning. I'm deeply passionate about using technology to solve real-world problems and love exploring how AI can make systems smarter and more efficient.
     <br><br>
-        From leading tech-driven projects to organizing workshops and representing IEEE as the Student Branch Vice Chair, I enjoy combining innovation with impact. I'm particularly interested in areas like computer vision, sustainable technology, and AI for social good.
+        From leading tech-driven projects to organizing workshops and representing IEEE as the Student Branch Chair, I enjoy combining innovation with impact. I'm particularly interested in areas like computer vision, sustainable technology, and AI for social good.
     <br><br>
         I believe in continuous learning, asking why behind everything, and connecting concepts to real life. Whether it's coding, leading a team, or brainstorming the next big idea — I’m always up for a challenge!</p>
             </div>
@@ -111,7 +113,10 @@
         {% include 'gallery.html' %}
       </div>
         <div style= "text-align:center;">
+
+        <a href="mailto:yatharthpatankar07@gmail.com">
         <button class="btn btn-primary btn-lg">Contact</button>
+        </a>
         </div>
     </div>
     </div>
